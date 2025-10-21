@@ -141,7 +141,7 @@ def print_banner():
 def main():
     if len(sys.argv) < 2:
         print_banner()
-        print(f"\nUsage: {sys.argv[0]} <target_host> [username] [password] [domain] [remote_host] [tcp_port]")
+        print(f"\nUsage: {sys.argv[0]} <target_host> [username] [password] [domain] [attacker_host] [tcp_port]")
         print("\nExamples:")
         print(f"  # Anonymous connection")
         print(f"  {sys.argv[0]} 192.168.1.100")
