@@ -57,6 +57,8 @@ rpcrelayserver.py<br>
 <br>
 
 The vulnerability was fixed in September 2025 Patch Tuesday: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-54918<br>
+
+The fix ensures that the MIC is **always** calculated, even when the Type 3 message is empty.<br>
 <br>Thanks to the author of this CVE for a valuable hint :)
 
 
